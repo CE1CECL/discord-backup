@@ -22,7 +22,7 @@ import type {
     NewsChannel,
     PremiumTier,
     ThreadChannel
-} from 'discord.js';
+} from 'fosscord-gopnik';
 import nodeFetch from 'node-fetch';
 
 const MaxBitratePerTier: Record<PremiumTier, number> = {

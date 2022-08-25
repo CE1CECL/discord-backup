@@ -1,4 +1,4 @@
-import { Snowflake } from 'discord.js';
+import { Snowflake } from 'fosscord-gopnik';
 
 export interface BanData {
     id: Snowflake;
